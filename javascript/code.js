@@ -99,7 +99,7 @@ $(document).ready(function(){ (function() {
 
             documentHeadert.on('scroll', function() {
                 var scrollPoss = documentHeadert.scrollTop();
-                parallaxHDD.css('background-position', '0 ' + -scrollPoss/ 7 + 'px');
+                parallaxHDD.css('background-position', '0 ' + -scrollPoss/ 2 + 'px');
             });
 
 
@@ -119,7 +119,7 @@ $(document).ready(function(){ (function() {
         
         /* MOBILE VERSION  */
         
-        if (document.documentElement.clientWidth < 1281) {
+        if (document.documentElement.clientWidth < 1440) {
 	           var documentHeader = $(document),
                 parallaxHD = $('div.header');
 
@@ -151,5 +151,8 @@ $(document).ready(function(){ (function() {
     
 
 });
+
+
+
 
  

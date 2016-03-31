@@ -16,7 +16,7 @@
     <link rel="stylesheet" media="only screen and (min-width: 768px) and (max-width: 1024px)" href="iPads.css" />
       <link rel="stylesheet" media="only screen and (min-width: 320px) and (max-width: 481px)" href="style-medium.css" />
       <link rel="stylesheet" media="only screen and (min-width: 668px) and (max-width: 767px)" href="HGW.css" />
-    
+      <link rel="stylesheet" media="only screen and (min-width: 900px) and (max-width: 1440px)" href="Mac.css" />
 
     <!----Media Query---->
     <!----SCRIPTS---->
@@ -106,6 +106,12 @@
             <div class="hoverdiv"><li id="li4"><h6 id='fourth'>Page2</h6></li></div>
         </ul>
     </div>
+    <script>
+       var width = function(){
+           document.getElementById('test').innerHTML = 'Width: ' + innerWidth;
+       };
+        document.addEventListener('DOMContentLoaded', width );
+    </script>
 </body>
 
 </html>
